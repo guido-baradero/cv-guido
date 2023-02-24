@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  .titulo-encabezado {
+    /*width: 75%;*/
+    float: left;
+    padding: 15px;
+    
+  }
+  
+  .imagen-guido {
+    /*width: 25%;*/
+    float: left;
+    padding: 15px;
+    
+  }
+
+  /*div {
+    display: table;
+  }
+  div a.titulo-encabezado{
+    float: left;
+    padding: 15px;
+    width: 50%; 
+  }
+  */
+  div a.imagen{
+    float: center;
+    padding: 15px;
+    width: 50%; 
+  }
+  
+  .foto-guido {
+    width: auto;
+    height: 200px;
+    border-radius: 50%;
+    /*float: left;*/
+  }
+
+
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the navigation menu
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+  }
+  */
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li {
+    float: left;
+    border-bottom: 1px solid #555;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+ 
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align:center;
+  
+  }
+  /*.parrafo {
+    column-count: 3;
+  }
+  */
+  .aptitudes{
+    border: outset;
+    list-style-type: disc;
+    width: 100%;
+  }
+  li {
+    border-bottom: outset;
+    text-align: left;
+  }
+  .container-fluid{
+    width: 100px;
+    height: 200px;
+  }
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.button {
+    background-color: #4CAF50;
+    border: none;
+    color:#4CAF50;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+button {
+    background-color: #c78813;
+    border: solid 1px ;
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+    text-decoration: underline;
+
+body {
+    background-color: darkgrey;
+}
+header {
+    background-color: #c78813;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+
+nav {
+    float: left;
+    width: 30%;
+    height: 500px; 
+    background: #ccc;
+    padding: 20px;
+
+}
+
+.articulo {
+    float: right;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 500px;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.contenedor{
+    padding: 10px;
+    margin: 4px 0px 0px 0px;
+}
+.titulo{
+    float: left;
+}
+.foto {
+    float: left;
+    width: auto;
+    height: 80px;
+    width: 30%; 
+    
+}
+
+.foto-guido {
+    width: auto;
+    height: 120px;
+    border-radius: 50%;
+    float: right;
+}
+
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    margin: 450px 0px 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*/

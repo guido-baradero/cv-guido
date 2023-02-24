@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+@media (max-width: 600px) {
+  .card { 
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    }
+  section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+  /* Estilo de Encabezado */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+}
+.titulo-encabezado {
+    float: left;
+    padding: 15px;
+    
+}
+div.encabezado-art {
+    background-color: #f1f1f1;
+    text-align: left;
+}
+/*.imagen-guido {
+    /*width: 25%;
+    float: left;
+    padding: 15px;
+    
+}*/
+
+h3.titulos {
+  padding: 30px 0px 30px 0px;
+}
+.btn-primary {
+margin: 10px 0px 10px 0px;
+
+}
+
+div a.imagen{
+    float: center;
+    padding: 15px;
+    width: 50%; 
+}
+
+  /* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+  /* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align:center;
+}
+.parrafo {
+  text-align: justify;
+}
+.educacion{
+  margin-top: 20px;
+  text-align: justify;
+}
+
+li.aptitudes{
+    border: 0;
+    padding: o;
+    list-style-type: disc;
+    text-align: left;
+    width: 100%;
+    text-decoration: navajowhite;
+
+}
+a.li{
+  border: outset;
+  padding: o;
+  text-decoration: none;
+  list-style-type: disc;
+}
+
+li {
+  text-align: left;
+}
+
+.accordion-body{
+  text-align: justify;
+  background-color:rgb(200, 208, 207);
+}
+
+img.documentacion{
+  height: 380px;
+  width: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container-fluid{
+    width: 100px;
+    height: 200px;
+}
+  /* Estilo de pie de pagina */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.pagination {
+    /*display: inline-block;*/
+    float: right;
+}
+  
+.pagination a {
+    color: black;
+    float: right;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}  
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.button {
+    background-color: #4CAF50;
+    border: none;
+    color:#4CAF50;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+button {
+    background-color: #c78813;
+    border: solid 1px ;
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+    text-decoration: underline;
+
+body {
+    background-color: darkgrey;
+}
+header {
+    background-color: #c78813;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+
+nav {
+    float: left;
+    width: 30%;
+    height: 500px; 
+    background: #ccc;
+    padding: 20px;
+
+}
+*/
+
+/*
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.contenedor{
+    padding: 10px;
+    margin: 4px 0px 0px 0px;
+}
+.titulo{
+    float: left;
+}
+.foto {
+    float: left;
+    width: auto;
+    height: 80px;
+    width: 30%; 
+    
+}
+
+.foto-guido {
+    width: auto;
+    height: 120px;
+    border-radius: 50%;
+    float: right;
+}
+
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    margin: 450px 0px 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*/

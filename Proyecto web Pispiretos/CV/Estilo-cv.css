@@ -1,0 +1,68 @@
+.div-encabezado {
+    vertical-align: middle;
+    border: 1px outset grey;
+    padding: 0px 00px 0px 00px;
+    margin: 0px 400px 0px 400px;
+    text-align: center;
+    max-width: 100%; 
+    height: auto;
+  }
+  
+.div-contenedor {
+    border: 1px solid grey;
+    vertical-align: middle;
+    padding: 0px 00px 0px 00px;
+    margin: 20px 40px 20px 40px;
+    text-align: left;
+    max-height: 300px;
+    max-width: 100%; 
+    height: auto;
+    align-content: center;
+    display:inline-block;
+
+    
+}
+  .div-historial {
+    border: 1px outset grey;
+    vertical-align: left;
+    padding: 0px 00px 0px 00px;
+    margin: 20px 0px 20px 0px;
+    text-align: left;
+    max-width: 180px; 
+    height: auto;
+    display:inline;
+
+  }
+  .div-datos-personales {
+    border: 1px solid grey;
+    padding: 0px 00px 0px 00px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    height: auto;
+    display:inline-flex;
+ 
+  }
+
+  .foto-guido{
+    width: 80px 
+  
+  }
+
+
+  
+  .div-pie-de-pagina {
+    border: 1px outset grey;
+    vertical-align: middle;
+    width: 10;
+    height: 10;
+    padding: 0px 00px 0px 00px;
+    margin: 20px 400px 20px 400px;
+    max-height: 300px;
+    text-align: center;
+    max-width: 100%; height: auto;
+  }
+
+  h2 {
+    color: darkslateblue;
+    text-align: center;
+  }
